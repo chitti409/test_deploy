@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  skip_cleanup: true
+  provider: heroku
+  api_key:
+    secure: sM51NYE0dz/UtJBkjnXBFCap8AWgW98yfM58btasftxaDptMxt9dBSbEeJbKXHaZMv4A3Tt+VENLU+M0ayO3g0uBRzi+Dt3bs+ksq2lKwsGL58bMwGKZVngv257zRn0GzUUqTZwElSUqvD0oay5moUtoWhlMpB5kjZNA2hD+b7RBiEs20sUrW8Wxnl7dTiLLQ+fmsZenl6gD9QB1XjSR88j4UsuSnoPXxpYB4p9JgC1Ufncs0ma3PwfyNQ3CVxyFokLiCb3zXofl5VBZ3OzG9yItuHHXbUdb8b6Jb8Us1AtL6ZXfiuOnhgwvWPGz1GCTfUXJ+NNDbbDy9VZak8NCCWTUjzBG3cCkRLWPkt5NHfexCSXf6d/fKS/lqj0z/GknY8J9SLDHbZavAxJ2ES42DDG3xkf/rj3g26tbqSWVPK+tekHo601Y7BVQu12SYMmZppXWLrXzBoTznPN1ZM05Ts+YZGqiip3ngmPL1wkWsIrCRK8OPd4JIGZ2uwQc6qK2VQO6nS/vfp04QXVyt6KSPzJJnqRtfQT7TNAoaIq546GuOsOmrt8B/WRKZtB05jS2ZUUkBmd4gDL4AwcDRv8x1akB86JouoTeimKWS+EydcP9W1p4Wpergj07SnOzXsBnge9TqY0Hbfkjp11yVjS75M8DyLg4k/jv3VJpoJc7qC8=
+  app: pure-fjord-99806
+  on:
+    repo: synedra/node_deploy
