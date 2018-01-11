@@ -5,3 +5,4 @@ Another change
 Another change
 Testing the CircleCI Install
 Checking on the local remote
+Another new line for testing
