@@ -3,6 +3,7 @@ node_js:
 - '8'
 deploy:
   provider: heroku
+  skip_cleanup: true
   api_key:
     secure: TExuSVAwCNFPigG3Zg3dDAw7w7DFKvdJVrQR/YhfA97VamGQ/ODHJKF5/9z++fW5d5RXPUMJhA4dYDSP2jjX/zea68yUe69Egv0CL7C/qFrKmVHuRjjxjnV4uTBYzK+YI4hYYLzWAB0np8wUDOz5U6dylyS0PRaBbmSM/OVTo0xkVYofwaoRynwnqdsYlbLQ0imqx/bU1AP/uvxHW1U/KsvDnBa2dw2sDg7z78/HLoOVlJ+KH3QI9/tT8pLGSrvY25DGaEeic5tyLjK3lgx9yK8ScU7kC1W0ZTviVIlnfNN+1OzMXXmIV9qapMVAOwLg+XHzP3eF0xqJIiLymw5R+nG4vWVZb6SjvqQhasQ/X9Ii2oPnEHneUd+C9jNlNhEoov75FABoRQozDDAro5PpWkdS3jytMi1jXoRjgDrx/gdd8gjDtKPHP01luVKqbqBjQd9F/C+Rs4jeFhfPAcf8KLOOEpot7UuokUHpMUIO1jJabiGeBikmS0J+9P0/rYb2lKPJ+gluPtURoMJ2TfrUHKTR58xgHs73uj3JW1kl86ZkbhKQNq9GZk8swWG84vtdkewIPgRehUt7cSdaxZVIMuEwMntpv2VuQEN/cnDyBS65vhvxYOO6uLW6FTOAnKBNC5xqZX1QnjxC8vPBGICxz2pGjxfacPmGR76tb3gjK8I=
   app: obscure-spire-80298
